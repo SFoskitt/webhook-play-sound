@@ -19,3 +19,8 @@ For example, if the subdomain is "abc" and you're running this server locally, t
 However, for some reason, when testing this setup your curl will have extra characters in the Ultrahook URL:
 `curl --request POST https://abc-abc.ultrahook.com`  
 This is the URL you'll use in your service sending the POST request webhook.
+
+
+## Future plans
+
+If I'm feeling ambitious in the future then I may store a few more mp3 files here and set `playsound.js` to choose one at random. In that way I'll be unable to expect the celebratory sound that will be played when I complete a task. :grinning:
