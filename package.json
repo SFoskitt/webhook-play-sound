@@ -1,0 +1,16 @@
+{
+  "name": "webhook-play-sound",
+  "version": "1.0.0",
+  "description": "Plays a sound on POST request.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "SFoskitt",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "sound-play": "^1.1.0"
+  }
+}
