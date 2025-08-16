@@ -16,9 +16,16 @@ For example, if the subdomain is "abc" and you're running this server locally, t
 
 `ultrahook abc localhost:5001`
 
-However, for some reason, when testing this setup your curl will have extra characters in the Ultrahook URL:
+However, for some reason, when testing this setup your curl will have extra characters in the Ultrahook URL: **
 `curl --request POST https://abc-abc.ultrahook.com`  
 This is the URL you'll use in your service sending the POST request webhook.
+
+** Okay, I found an extra note on the FAQ:
+> If you registered your account with the bob namespace and later created an endpoint named stripe, it would be located at bob-stripe.ultrahook.com.
+
+So if I registered for namespace of abc then you will pass the second half of the subdomain to the following ultrahook command:
+
+`ultrahook stripe localhost:5001`
 
 
 ## Future plans
